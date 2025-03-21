@@ -1,0 +1,13 @@
+@relation employee_data
+
+@attribute EmpID numeric
+@attribute Name string
+@attribute Salary numeric
+@attribute Gender {Male, Female}
+@attribute ContactNo string
+
+@data
+101, 'John Doe', 50000, Male, '123-456-7890'
+102, 'Jane Smith', 55000, Female, '234-567-8901'
+103, 'Alice Johnson', 60000, Female, '345-678-9012'
+104, 'Bob Brown', 45000, Male, '456-789-0123'
